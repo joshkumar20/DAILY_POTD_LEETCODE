@@ -77,7 +77,7 @@
 // 0 <= <number> <= numberOfUsers - 1
 // It is guaranteed that the user id referenced in the OFFLINE event is online at the time the event occurs.
 import java.util.*;
-class P8CountMensionPerUser{
+public class P8CountMensionPerUser{
     public int[] countMentions(int numberOfUsers, List<List<String>> events) {
         TreeMap<Integer, List<List<String>>> byTs = new TreeMap<>();
         for (List<String> ev : events) {
