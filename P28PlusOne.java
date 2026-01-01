@@ -34,7 +34,7 @@
 // digits does not contain any leading 0's.
 
 
-class Solution {
+class P28PlusOne{
     public int[] plusOne(int[] digits) {
         int n = digits.length;
 
