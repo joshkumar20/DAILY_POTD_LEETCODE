@@ -24,9 +24,11 @@
 
 // The number of nodes in the tree is in the range [1, 104].
 // -105 <= Node.val <= 105
+
+
 import  java.util.*;
 import javax.swing.tree.TreeNode;
-class  P33MaximumLevelSumOfBinarytree{
+public class  P33MaximumLevelSumOfBinarytree{
     public void dfs(TreeNode node, int level, List<Integer> sumOfNodesAtLevel) {
         if (node == null) {
             return;
@@ -59,3 +61,16 @@ class  P33MaximumLevelSumOfBinarytree{
         return ans;
     }
 }
+
+ class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }
