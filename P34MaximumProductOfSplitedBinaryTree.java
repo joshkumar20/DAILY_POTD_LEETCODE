@@ -25,7 +25,7 @@
 // The number of nodes in the tree is in the range [2, 5 * 104].
 // 1 <= Node.val <= 104
 
-class Solution {
+class P34MaximumProductOfSplitedBinaryTree{
     long maxProduct = 0;
     long totalSum = 0;
     final int MOD = 1000000007;
