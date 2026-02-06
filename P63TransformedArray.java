@@ -41,7 +41,7 @@
 // -100 <= nums[i] <= 100
 
 
-class Solution {
+class P63TransformedArray{
 
     public int[] constructTransformedArray(int[] nums) {
         int n = nums.length;
