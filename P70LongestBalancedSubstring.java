@@ -44,7 +44,7 @@
 // s consists of lowercase English letters.
 import java.util.*;
 
-class P0LLongestBalancedSubstring{
+public class P70LongestBalancedSubstring{
 
     public int longestBalanced(String s) {
         int n = s.length();
