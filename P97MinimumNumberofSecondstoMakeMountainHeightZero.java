@@ -61,7 +61,7 @@
 
 
 
-class MinimumNumberofSecondstoMakeMountainHeightZero{
+public class P97MinimumNumberofSecondstoMakeMountainHeightZero{
 
     private static final double EPS = 1e-7;
 
